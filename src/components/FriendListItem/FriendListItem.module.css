@@ -1,0 +1,25 @@
+.itemContentWrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.friendName {
+    font-size: 20px;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+.statusSize {
+    font-size: 14px;
+}
+.online {
+    color: #00a316;
+    font-size: 14px;
+}
+.offline {
+    color: #e10000;
+    font-size: 14px;
+}

@@ -1,0 +1,19 @@
+.table {
+width: 100%;
+margin: 20px 0;
+font-size: 16px;
+text-transform: capitalize;
+}
+.cell {
+    border: 2px solid #000;
+    text-align: center;
+    padding: 5px;
+}
+.cellsRow:nth-child(even) {
+    background-color: #d6d6d6;
+    color: #000;
+}
+td:hover {
+    background-color: #f1f1f1;
+    color: #000;
+}
