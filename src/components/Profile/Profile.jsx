@@ -17,20 +17,20 @@ export default function Profile({
       </div>
       <ul className={css.list}>
         <li className={css.listItem}>
-          <span className={css.listItemElem}>Followers</span>
-          <span className={clsx(css.listItemElem, css.itemAccent)}>
+          <span className={css.itemElement}>Followers</span>
+          <span className={clsx(css.itemElement, css.itemAccent)}>
             {followers}
           </span>
         </li>
         <li className={css.listItem}>
-          <span className={css.listItemElem}>Views</span>
-          <span className={clsx(css.listItemElem, css.itemAccent)}>
+          <span className={css.itemElement}>Views</span>
+          <span className={clsx(css.itemElement, css.itemAccent)}>
             {views}
           </span>
         </li>
         <li className={css.listItem}>
-          <span className={css.listItemElem}>Likes</span>
-          <span className={clsx(css.listItemElem, css.itemAccent)}>
+          <span className={css.itemElement}>Likes</span>
+          <span className={clsx(css.itemElement, css.itemAccent)}>
             {likes}
           </span>
         </li>
